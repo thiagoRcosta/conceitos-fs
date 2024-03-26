@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-03-26T22:17:20.828Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" etag="G_Jj8oeViq-554WT0OFE" version="24.2.0" type="device">
+  <diagram name="Página-1" id="G957lM33wZljZlUquU8M">
+    <mxGraphModel dx="1122" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZlXmckaChXJtEhxKPz1e-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZlXmckaChXJtEhxKPz1e-1" target="ZlXmckaChXJtEhxKPz1e-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlXmckaChXJtEhxKPz1e-1" value="(View)&lt;div&gt;Cliente Web&lt;div&gt;(Navegador do usuário)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="95" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlXmckaChXJtEhxKPz1e-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZlXmckaChXJtEhxKPz1e-2" target="ZlXmckaChXJtEhxKPz1e-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlXmckaChXJtEhxKPz1e-2" value="(Controller)&lt;div&gt;Controlador&lt;div&gt;(Spring MVC Controllers)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="225" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlXmckaChXJtEhxKPz1e-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZlXmckaChXJtEhxKPz1e-5" target="ZlXmckaChXJtEhxKPz1e-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlXmckaChXJtEhxKPz1e-5" value="(Services)&lt;div&gt;Camada de Serviços&lt;div&gt;(Spring Services / Beans)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="355" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlXmckaChXJtEhxKPz1e-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZlXmckaChXJtEhxKPz1e-7" target="ZlXmckaChXJtEhxKPz1e-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlXmckaChXJtEhxKPz1e-7" value="(Repository)&lt;div&gt;Camada de Acesso a dados&lt;/div&gt;&lt;div&gt;(Repositórios Spring Data JPA)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="355" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlXmckaChXJtEhxKPz1e-8" value="(Database)&lt;div&gt;Banco de Dados&lt;/div&gt;&lt;div&gt;(MySQL, H2, etc)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="525" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlXmckaChXJtEhxKPz1e-9" value="&lt;span style=&quot;font-size: 12px; white-space: pre-wrap; caret-color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left;&quot;&gt;Navegador da Web&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="145" y="55" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlXmckaChXJtEhxKPz1e-11" value="&lt;span style=&quot;font-size: 12px; white-space: pre-wrap; caret-color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left;&quot;&gt;Requisições HTTP&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="200" y="175" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlXmckaChXJtEhxKPz1e-12" value="&lt;span style=&quot;white-space: pre-wrap; caret-color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left;&quot;&gt;Camada de Acesso&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="305" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlXmckaChXJtEhxKPz1e-15" value="&lt;span style=&quot;font-size: 12px; white-space: pre-wrap; caret-color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left;&quot;&gt;Spring Data JPA para acesso aos dados&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="395" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZlXmckaChXJtEhxKPz1e-16" value="&lt;span style=&quot;font-size: 12px; white-space: pre-wrap; caret-color: rgb(236, 236, 236); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, Cantarell, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Helvetica Neue&amp;quot;, Arial, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; text-align: left;&quot;&gt;Dados da aplicação são armazenados&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=default;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="455" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
